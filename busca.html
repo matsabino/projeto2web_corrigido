@@ -1,0 +1,41 @@
+
+        <section>
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="alert alert-info text-center">
+                            <div>
+                                <h4 class="fw-bold">Pesquisa de Animes</h4>
+                            </div>
+                            <div>
+                                <a class="small text-decoration-none" onclick="logout()">Deseja sair? Clique aqui!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center">
+                    <input 
+                        type="text" 
+                        id="search_anime" 
+                        name="search_anime" 
+                        placeholder="Digite o anime que você quer procurar"
+                        class="form-control text-center"
+                    >
+                    <button class="btn btn-primary text-center mx-auto btn-lg mt-3" onclick="searchAnime()">
+                        Buscar anime
+                    </button>
+                    <div class="mt-3" id="errorAnime">
+
+                    </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div class="container">
+                <div class="row justify-content-center gy-4" id="animeList">
+                </div>
+            </div>
+        </section>
