@@ -58,7 +58,6 @@ function searchAnime(){
     .catch(function (error) {
         // handle error
         console.log(response);
-        alert(error.response.data.error); // Mostra o erro de login.
     });
     }
 }
